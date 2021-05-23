@@ -1,5 +1,6 @@
 header {
   font-family: Calibri;
+  color: #008cba;
 }
 body {
   font-family: Calibri;
@@ -7,6 +8,24 @@ body {
 
 h1 {
   text-align: center;
+  color: #008cba;
+  font-weight: bold;
+}
+
+.mlogo {
+  height: 1em;
+  width: auto;
+  padding: 1px;
+  margin-right: 10px;
+}
+
+.blogo {
+  height: 90%;
+  width: 90%;
+  padding: 1px;
+  margin-right: 10px;
+  text-align: center;
+  margin-top: 50px;
 }
 
 h2 {
@@ -15,8 +34,23 @@ h2 {
 h3 {
   text-align: center;
 }
+
+.blueh3 {
+  color: #008cba;
+}
 h4 {
   text-align: center;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .block {
@@ -27,18 +61,27 @@ h4 {
 
 @media only screen and (max-width: 700px) {
   .block {
-    height: 175px;
+    height: 250px;
     width: 100%;
     font-family: Calibri;
+  }
+  .column {
+    float: left;
+    width: 50%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
   }
 }
 
 .blue {
   background-color: #008cba;
   color: white;
-  text-align: right;
+
   padding: 10px;
-  column-count: 2;
 }
 
 .white {
@@ -46,5 +89,4 @@ h4 {
   color: black;
   text-align: left;
   padding: 10px;
-  column-count: 2;
 }
