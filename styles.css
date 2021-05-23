@@ -1,6 +1,6 @@
 header {
   font-family: Calibri;
-  color: #008cba;
+  color: #0177b7;
 }
 body {
   font-family: Calibri;
@@ -8,7 +8,7 @@ body {
 
 h1 {
   text-align: center;
-  color: #008cba;
+  color: #0177b7;
   font-weight: bold;
 }
 
@@ -38,7 +38,7 @@ h3 {
 }
 
 .blueh3 {
-  color: #008cba;
+  color: #0177b7;
 }
 h4 {
   text-align: center;
@@ -80,7 +80,7 @@ h4 {
 }
 
 .blue {
-  background-color: #008cba;
+  background-color: #0177b7;
   color: white;
 
   padding: 10px;
