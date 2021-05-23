@@ -6,6 +6,10 @@ body {
   font-family: Calibri;
 }
 
+p {
+  font-weight: bold;
+}
+
 h1 {
   text-align: center;
   color: #0177b7;
@@ -37,6 +41,13 @@ h3 {
   text-align: center;
 }
 
+.welcometitle {
+  color: #0177b7;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+
 .blueh3 {
   color: #0177b7;
 }
@@ -61,6 +72,21 @@ h4 {
   font-family: Calibri;
 }
 
+.miniblock {
+  height: 4em;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.miniblockother {
+  height: 3em;
+  width: 100%;
+  font-weight: bold;
+  font-size: 14px;
+}
+
 @media only screen and (max-width: 700px) {
   .block {
     height: 250px;
@@ -76,6 +102,32 @@ h4 {
     content: "";
     display: table;
     clear: both;
+  }
+
+  .miniblock {
+    height: 3em;
+    width: 100%;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .miniblockS {
+    height: 3em;
+    width: 80%;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+  }
+  .miniblockother {
+    height: 4em;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .smallbullets {
+    font-size: 10px;
+    text-align: left;
+    padding: 5px;
   }
 }
 
